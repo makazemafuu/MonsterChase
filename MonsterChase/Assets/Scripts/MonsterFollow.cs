@@ -19,7 +19,13 @@ public class MonsterFollow : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Walls")
+            if (collision.gameObject.tag == "Player")
+            {
+                Destroy(collision.gameObject);
+            }
+
+            //Boucing off walls
+            if (collision.gameObject.tag == "Walls")
         {
             if (Input.GetKey(KeyCode.LeftArrow))
             {
