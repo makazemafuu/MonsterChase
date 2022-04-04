@@ -904,7 +904,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   gameoverUI: {fileID: 260218824}
-  UITIMER: {fileID: 0}
 --- !u!212 &323134542
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1597,7 +1596,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   gameoverUI: {fileID: 260218824}
-  UITIMER: {fileID: 0}
 --- !u!212 &584113458
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2206,7 +2204,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   gameoverUI: {fileID: 260218824}
-  UITIMER: {fileID: 0}
 --- !u!212 &829007801
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4313,7 +4310,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   gameoverUI: {fileID: 260218824}
-  UITIMER: {fileID: 0}
 --- !u!212 &1585365009
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4591,7 +4587,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   gameoverUI: {fileID: 260218824}
-  UITIMER: {fileID: 0}
 --- !u!212 &1684221391
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4725,7 +4720,7 @@ MonoBehaviour:
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 1
+    m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: kkk
@@ -5495,7 +5490,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   gameoverUI: {fileID: 260218824}
-  UITIMER: {fileID: 0}
 --- !u!212 &1911161422
 SpriteRenderer:
   m_ObjectHideFlags: 0
