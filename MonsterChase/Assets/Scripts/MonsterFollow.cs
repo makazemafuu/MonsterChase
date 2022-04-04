@@ -14,6 +14,7 @@ public class MonsterFollow : MonoBehaviour
     {
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         gameoverUI.SetActive(false);
+
     }
     void Update()
     {
